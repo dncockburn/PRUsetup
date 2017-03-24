@@ -41,4 +41,10 @@ Driver Setup:
       
     Note that nearly all guides were written for the 3.8 kernel. The path for /slots changed with kernel 4.0.
 
-  
+  4. Use PRU
+    
+    I have included a sample set of code for running some simple code on the PRU. Just run
+    
+        make 
+        
+        make install
