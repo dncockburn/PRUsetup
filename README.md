@@ -24,6 +24,7 @@ Driver Setup:
     
 3. Enable PRU
   This may already be possible depending on the image of your Beaglebone
+  
   a. Go to https://github.com/RobertCNelson/bb.org-overlays and make sure you have these overlays, I had to install them but some images apparently have them by default. Follow the instructions in the README. This involves changes to the kernel that are very necessary and most people seem to suggest that most beaglebones have these already.
   
   b. To get the basic device tree overlays that can be used to enable the PRUs, get this repo: https://github.com/cdsteinkuehler/beaglebone-universal-io. This also allows the use of "config-pin" command. Use the following command for more information.
