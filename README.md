@@ -38,6 +38,6 @@ Driver Setup:
      
       cat /sys/platform/devices/bone_capemgr/slots
       
-      Note that nearly all guides were written for the 3.8 kernel. The path for /slots changed with kernel 4.0.
+     Note that nearly all guides were written for the 3.8 kernel. The path for /slots changed with kernel 4.0.
 
   
