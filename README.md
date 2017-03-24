@@ -17,6 +17,6 @@ Driver Setup:
     c. Change directory to am335x_pru_package-master/pru_sw/app_loader/interface then run: CROSS_COMPILE= make (note the space between the = and the command).
     
     d. The previous step should have created four files in am335x_pru_package-master/pru_sw/app_loader/lib: libprussdrv.a, libprussdrvd.a, libprussdrvd.so and libprussdrv.so. Copy these all to /usr/lib then run ldconfig.
-    
+    
     e. Change directory to am335x_pru_package-master/pru_sw/utils/pasm_source then run "source linuxbuild" to create a pasm executable one directory level up. Copy it to /usr/bin and make sure you can run it. If you invoke it with no arguments, you should get a usage statement.
      
